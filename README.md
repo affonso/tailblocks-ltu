@@ -32,24 +32,32 @@ To use the project:
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/) (v12+)
-- [Yarn](https://yarnpkg.com/)
+- [Yarn](https://yarnpkg.com/) or [Bun](https://bun.sh/) (optional, faster alternative)
 
 ### Setup
 
+With Yarn:
 ```bash
 git clone https://github.com/affonso/tailblocks-ltu.git
 cd tailblocks-ltu
 yarn install
 ```
 
+Or with Bun:
+```bash
+git clone https://github.com/affonso/tailblocks-ltu.git
+cd tailblocks-ltu
+bun install
+```
+
 ### Commands
 
-| Command | Description |
-|---------|-------------|
-| `yarn start` | Start development server |
-| `yarn build` | Create production build |
-| `yarn test` | Run tests |
-| `yarn deploy` | Build and deploy to GitHub Pages |
+| Command | Yarn | Bun |
+|---------|------|-----|
+| Start dev server | `yarn start` | `bun start` |
+| Production build | `yarn build` | `bun build` |
+| Run tests | `yarn test` | `bun test` |
+| Deploy to GitHub Pages | `yarn deploy` | `bun deploy` |
 
 ### Project Structure
 
